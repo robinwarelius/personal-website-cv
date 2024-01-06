@@ -1,0 +1,260 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  width: 3%;
+}
+
+/* Headings section */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Sections  */
+
+.colored-section {
+  background-color: #344d67;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #e9ecef;
+  color: black;
+}
+
+/* Containers */
+
+/* .container-fluid {
+  padding: 2% 3%;
+} */
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 1.2rem;
+  font-size: "Montserrat-Light";
+  font-weight: bold;
+}
+
+/* Title Section */
+#title{
+  padding: 30px 30px;
+}
+
+.cv-image {
+  width: 60px;
+}
+
+.visual-image {
+  width: 40px;
+  margin-top: 20px;
+}
+
+/* Profile Section */
+
+#profile {
+  position: relative;
+  padding: 30px 30px;
+}
+
+.profile-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #000000;
+  color: #344d67;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000000;
+}
+
+.profile-image {
+  margin-bottom: 30px;
+}
+
+/* Skills section */
+#skills{
+  padding: 30px 30px;
+}
+
+.stars {
+  font-size: 1em;
+  color: #A9A9A9;
+}
+
+.skill {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-bottom: 10px;     
+}
+
+.skill-name {
+  margin-right: 10px; 
+}
+
+/* Hobbies Section */
+#hobbies{
+  padding: 30px 30px;
+}
+
+.hobbies-text {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+.hobbies-image {
+  margin: 20px;
+  width: 15%;
+}
+
+/* Footer Section */
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+  background-color: #e9ecef;
+  color: black;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.btn {
+  margin: 30px 0 30px 0;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.work-icon {
+  padding: 30px 0 10px 0;
+  margin: 10px;
+  color: black;
+  width: 20px;
+}
+
+.work-icon:hover {
+  color: #555555;
+}
+
+/* Resume Section */
+
+.arrow-img2 {
+  width: 20px;
+  margin-top: 50px;
+  opacity: 0.5;
+}
+
+.arrow-img2:hover {
+  opacity: 1;
+}
+
+#resume {
+  color: black;
+  line-height: 2rem;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.heading-resume {
+  padding: 25px 0 15px;
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Letter Section */
+
+.arrow-img {
+  width: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.arrow-img:hover {
+  opacity: 1;
+}
+
+#letter {
+  color: black;
+  line-height: 2rem;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#letter .container-fluid {
+  text-align: left;
+}
+
+.hr-letter {
+  border-top-style: hidden;
+}
+
+.edit-text {
+  color: black;
+  line-height: 2rem;
+  font-size: 20px;
+  text-align: left;
+  background-color: #e9ecef;
+}
+
+/* Contact Section */
+
+#contact {
+  width: 100vw;  /* 100% av viewportens bredd */
+  height: 100vh; /* 100% av viewportens höjd */
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #e9ecef;
+}
+
+#contact .container-fluid {
+  color: black;
+  line-height: 2rem;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+
