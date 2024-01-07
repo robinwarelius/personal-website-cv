@@ -140,6 +140,17 @@ hr {
   width: 15%;
 }
 
+.carousel-control-prev .fas,
+.carousel-control-next .fas {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .hobbies-image {
+    width: 50%; 
+  }
+}
+
 /* Footer Section */
 
 #footer {
@@ -250,6 +261,5 @@ hr {
   text-align: left;
   background-color: #e9ecef;
 }
-
 
 
