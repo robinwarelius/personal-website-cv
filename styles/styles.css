@@ -145,11 +145,11 @@ hr {
   color: black;
 }
 
-@media (max-width: 600px) {
-  .hobbies-image {
-    width: 50%; 
-  }
+.fixed-size {
+  width: 200px; 
+  height: auto; 
 }
+
 
 /* Footer Section */
 
