@@ -140,14 +140,21 @@ hr {
   width: 15%;
 }
 
-.carousel-control-prev .fas,
-.carousel-control-next .fas {
-  color: black;
-}
-
 .fixed-size {
   width: 200px; 
   height: auto; 
+}
+
+@media screen and (max-width: 280px) {
+  .fixed-size {
+    width: 150px; 
+    height: auto;
+  }
+}
+
+.carousel-control-prev .fas,
+.carousel-control-next .fas {
+  color: black;
 }
 
 
@@ -261,5 +268,4 @@ hr {
   text-align: left;
   background-color: #e9ecef;
 }
-
 
