@@ -88,11 +88,27 @@ hr {
   font-size: 1.5rem;
 }
 
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+}
+
 .icon {
-  color: #000000;
   color: #344d67;
   margin-bottom: 1rem;
+  animation: pulse 3s infinite;
+  display: inline-block; 
 }
+
+.icon:hover {
+  color: #000000;
+}
+
+
 
 .icon:hover {
   color: #000000;
