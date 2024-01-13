@@ -84,13 +84,29 @@ hr {
   padding: 30px 30px;
 }
 
-.profile-title {
-  font-size: 1.5rem;
+a:hover {
+  text-decoration: none;
+}
+
+.profile-content{
+  color: black;
+}
+
+.profile-content:hover{
+  color: #2C3333;
+}
+
+.profile-content:hover .icon {
+  color: #2C3333;
+}
+
+.profile-text {
+  animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
   0%, 100% {
-    transform: scale(1); 
+    transform: scale(0.9); 
   }
   50% {
     transform: scale(1.05); 
@@ -100,18 +116,7 @@ hr {
 .icon {
   color: #344d67;
   margin-bottom: 1rem;
-  animation: pulse 3s infinite;
   display: inline-block; 
-}
-
-.icon:hover {
-  color: #000000;
-}
-
-
-
-.icon:hover {
-  color: #000000;
 }
 
 .profile-image {
@@ -252,6 +257,9 @@ hr {
   font-size: 20px;
   text-align: left;
   padding-left: 15px;
+  width: 100vw;  
+  height: 100vh; 
+  margin: 0;
 }
 
 #letter .container-fluid {
