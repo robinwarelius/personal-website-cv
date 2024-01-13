@@ -84,6 +84,10 @@ hr {
   padding: 30px 30px;
 }
 
+.profile-image {
+  margin-bottom: 30px;
+}
+
 a:hover{
 text-decoration: none;
 }
@@ -107,23 +111,24 @@ text-decoration: none;
   color: #000000;
 }
 
-.profile-image {
-  margin-bottom: 30px;
-}
-/* 
-.click {
+.click{
+  display: inline-block;
   animation: pulse 3s infinite; 
   color:#000000;
 }
 
+.click:hover {
+  color: #555555;
+}
+
 @keyframes pulse {
   0%, 100% {
-    transform: scale(0.9); 
+    transform: scale(0.9);
   }
   50% {
-    transform: scale(1.05); 
+    transform: scale(1.05);
   }
-} */
+}
 
 /* Skills section */
 
@@ -252,25 +257,6 @@ text-decoration: none;
 
 .arrow-img:hover {
   opacity: 1;
-}
-
-#letter {
-  color: black;
-  line-height: 2rem;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 15px;
-  width: 100vw;  
-  height: 100vh; 
-  margin: 0;
-}
-
-#letter .container-fluid {
-  text-align: left;
-}
-
-.hr-letter {
-  border-top-style: hidden;
 }
 
 /* Contact Section */
