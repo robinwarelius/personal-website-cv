@@ -97,20 +97,10 @@ text-decoration: none;
   color:#000000;
 }
 
-/* @keyframes pulse {
-  0%, 100% {
-    transform: scale(0.9); 
-  }
-  50% {
-    transform: scale(1.05); 
-  }
-} */
-
 .icon {
   color: #344d67;
   margin-bottom: 1rem;
   display: inline-block;
-  /* animation: pulse 3s infinite;  */
 }
 
 .icon:hover {
@@ -120,6 +110,20 @@ text-decoration: none;
 .profile-image {
   margin-bottom: 30px;
 }
+/* 
+.click {
+  animation: pulse 3s infinite; 
+  color:#000000;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(0.9); 
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+} */
 
 /* Skills section */
 
@@ -211,6 +215,15 @@ text-decoration: none;
 
 /* Resume Section */
 
+#resume-letter {
+  color: black;
+  line-height: 2rem;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: #e9ecef;
+}
+
 .arrow-img2 {
   width: 20px;
   margin-top: 50px;
@@ -219,14 +232,6 @@ text-decoration: none;
 
 .arrow-img2:hover {
   opacity: 1;
-}
-
-#resume {
-  color: black;
-  line-height: 2rem;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 15px;
 }
 
 .heading-resume {
@@ -266,14 +271,6 @@ text-decoration: none;
 
 .hr-letter {
   border-top-style: hidden;
-}
-
-.edit-text {
-  color: black;
-  line-height: 2rem;
-  font-size: 20px;
-  text-align: left;
-  background-color: #e9ecef;
 }
 
 /* Contact Section */
