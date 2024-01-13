@@ -84,39 +84,37 @@ hr {
   padding: 30px 30px;
 }
 
-a:hover {
-  text-decoration: none;
+a:hover{
+text-decoration: none;
 }
 
-.profile-content{
-  color: black;
-}
-
-.profile-content:hover{
-  color: #2C3333;
-}
-
-.profile-content:hover .icon {
-  color: #2C3333;
+.profile-title {
+  font-size: 1.5rem;
+  color:#000000;
 }
 
 .profile-text {
-  animation: pulse 3s infinite;
+  color:#000000;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
   0%, 100% {
     transform: scale(0.9); 
   }
   50% {
     transform: scale(1.05); 
   }
-}
+} */
 
 .icon {
   color: #344d67;
   margin-bottom: 1rem;
-  display: inline-block; 
+  display: inline-block;
+  /* animation: pulse 3s infinite;  */
+}
+
+.icon:hover {
+  color: #000000;
 }
 
 .profile-image {
