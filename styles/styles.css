@@ -240,10 +240,28 @@ text-decoration: none;
 }
 
 .heading-resume {
-  padding: 25px 0 15px;
+  padding: 25px 0 0;
   font-family: "Montserrat-Black";
   font-size: 2rem;
   line-height: 1.5;
+}
+
+li {
+  padding: 0;
+}
+
+h4, .small-text, .date-text {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.small-text {
+  font-size: 16px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 12px;
 }
 
 /* Letter Section */
@@ -257,6 +275,26 @@ text-decoration: none;
 
 .arrow-img:hover {
   opacity: 1;
+}
+
+
+h4, .s-text, .c-text {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.s-text {
+  font-size: 25px;
+}
+
+.c-text {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.link-contact:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 /* Contact Section */
