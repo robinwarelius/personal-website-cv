@@ -163,7 +163,10 @@ text-decoration: none;
   font-style: italic;
   font-size: 15px;
   text-decoration: underline;
+  line-height: 1;
+  display: inline-block;
 }
+
 
 /* Hobbies Section */
 
