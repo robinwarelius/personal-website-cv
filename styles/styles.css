@@ -162,7 +162,6 @@ text-decoration: none;
 .skill-text {
   font-style: italic;
   font-size: 15px;
-  text-decoration: underline;
   line-height: 1;
   display: inline-block;
 }
