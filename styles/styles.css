@@ -119,6 +119,7 @@ text-decoration: none;
 
 .click:hover {
   color: #555555;
+  text-decoration: underline;
 }
 
 @keyframes pulse {
@@ -129,6 +130,7 @@ text-decoration: none;
     transform: scale(1.05);
   }
 }
+
 
 /* Skills section */
 
@@ -150,6 +152,11 @@ text-decoration: none;
 
 .skill-name {
   margin-right: 10px; 
+}
+
+.skill-image {
+  width: 40px;
+  height: 40px;
 }
 
 /* Hobbies Section */
